@@ -1,0 +1,36 @@
+CRITICAL - 2024-04-08 10:01:14 --> Undefined variable $user
+#0 C:\wamp64\www\adminpro-2\app\Views\progress\education\add-monthly.php(61): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\wamp64\\www\\a...', 61)
+#1 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\wamp64\\www\\a...')
+#2 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('progress/educat...', Array, true)
+#4 C:\wamp64\www\adminpro-2\app\Controllers\Progress\EduMonthlyController.php(36): view('progress/educat...', Array)
+#5 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Progress\EduMonthlyController->addedumonthly()
+#6 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Progress\EduMonthlyController))
+#7 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\adminpro-2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\a...')
+#10 {main}
+CRITICAL - 2024-04-08 10:04:20 --> Undefined variable $user
+#0 C:\wamp64\www\adminpro-2\app\Views\progress\education\add-monthly.php(403): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\wamp64\\www\\a...', 403)
+#1 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\wamp64\\www\\a...')
+#2 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('progress/educat...', Array, true)
+#4 C:\wamp64\www\adminpro-2\app\Controllers\Progress\EduMonthlyController.php(36): view('progress/educat...', Array)
+#5 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Progress\EduMonthlyController->addedumonthly()
+#6 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Progress\EduMonthlyController))
+#7 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\adminpro-2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\a...')
+#10 {main}
+CRITICAL - 2024-04-08 10:05:43 --> Undefined variable $user
+#0 C:\wamp64\www\adminpro-2\app\Views\progress\education\add-monthly.php(406): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\wamp64\\www\\a...', 406)
+#1 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\wamp64\\www\\a...')
+#2 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('progress/educat...', Array, true)
+#4 C:\wamp64\www\adminpro-2\app\Controllers\Progress\EduMonthlyController.php(36): view('progress/educat...', Array)
+#5 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Progress\EduMonthlyController->addedumonthly()
+#6 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Progress\EduMonthlyController))
+#7 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\adminpro-2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\a...')
+#10 {main}

@@ -1,0 +1,179 @@
+CRITICAL - 2024-02-19 07:40:04 --> The action you requested is not allowed.
+#0 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\Security\Security.php(289): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\Filters\CSRF.php(53): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('/bewosaye/distr...', 'before')
+#4 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\adminpro-2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\a...')
+#7 {main}
+CRITICAL - 2024-02-19 08:35:43 --> The action you requested is not allowed.
+#0 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\Security\Security.php(289): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\Filters\CSRF.php(53): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('/bewosaye/distr...', 'before')
+#4 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\adminpro-2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\a...')
+#7 {main}
+CRITICAL - 2024-02-19 08:36:23 --> The action you requested is not allowed.
+#0 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\Security\Security.php(289): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\Filters\CSRF.php(53): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('/bewosaye/distr...', 'before')
+#4 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\adminpro-2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\a...')
+#7 {main}
+CRITICAL - 2024-02-19 08:36:58 --> The action you requested is not allowed.
+#0 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\Security\Security.php(289): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\Filters\CSRF.php(53): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('/bewosaye/distr...', 'before')
+#4 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\adminpro-2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\a...')
+#7 {main}
+CRITICAL - 2024-02-19 08:41:06 --> The action you requested is not allowed.
+#0 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\Security\Security.php(289): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\Filters\CSRF.php(53): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('/bewosaye/distr...', 'before')
+#4 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\adminpro-2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\a...')
+#7 {main}
+CRITICAL - 2024-02-19 08:41:13 --> The action you requested is not allowed.
+#0 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\Security\Security.php(289): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\Filters\CSRF.php(53): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('/bewosaye/distr...', 'before')
+#4 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\adminpro-2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\a...')
+#7 {main}
+CRITICAL - 2024-02-19 08:42:39 --> The action you requested is not allowed.
+#0 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\Security\Security.php(289): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\Filters\CSRF.php(53): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('/bewosaye/distr...', 'before')
+#4 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\adminpro-2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\a...')
+#7 {main}
+CRITICAL - 2024-02-19 08:43:45 --> The action you requested is not allowed.
+#0 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\Security\Security.php(289): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\Filters\CSRF.php(53): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('/bewosaye/distr...', 'before')
+#4 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\adminpro-2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\a...')
+#7 {main}
+CRITICAL - 2024-02-19 08:45:55 --> The action you requested is not allowed.
+#0 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\Security\Security.php(289): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\Filters\CSRF.php(53): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('/bewosaye/distr...', 'before')
+#4 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\adminpro-2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\a...')
+#7 {main}
+CRITICAL - 2024-02-19 08:49:08 --> The action you requested is not allowed.
+#0 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\Security\Security.php(289): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\Filters\CSRF.php(53): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('/bewosaye/distr...', 'before')
+#4 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\adminpro-2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\a...')
+#7 {main}
+CRITICAL - 2024-02-19 08:49:25 --> The action you requested is not allowed.
+#0 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\Security\Security.php(289): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\Filters\CSRF.php(53): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('/bewosaye/distr...', 'before')
+#4 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\adminpro-2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\a...')
+#7 {main}
+CRITICAL - 2024-02-19 08:52:43 --> Unmatched '}'
+#0 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\wamp64\\www\\a...')
+#1 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Comm...')
+#2 C:\wamp64\www\adminpro-2\app\Controllers\Dropdown.php(13): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Comm...')
+#3 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\CodeIgniter.php(809): App\Controllers\Dropdown->__construct()
+#4 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#5 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\adminpro-2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\a...')
+#8 {main}
+CRITICAL - 2024-02-19 08:57:36 --> Unmatched '}'
+#0 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\wamp64\\www\\a...')
+#1 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Comm...')
+#2 C:\wamp64\www\adminpro-2\app\Controllers\Dropdown.php(13): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Comm...')
+#3 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\CodeIgniter.php(809): App\Controllers\Dropdown->__construct()
+#4 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#5 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\adminpro-2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\a...')
+#8 {main}
+CRITICAL - 2024-02-19 08:57:42 --> Unmatched '}'
+#0 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\wamp64\\www\\a...')
+#1 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Comm...')
+#2 C:\wamp64\www\adminpro-2\app\Controllers\Dropdown.php(13): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Comm...')
+#3 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\CodeIgniter.php(809): App\Controllers\Dropdown->__construct()
+#4 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#5 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\adminpro-2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\a...')
+#8 {main}
+CRITICAL - 2024-02-19 08:58:12 --> Unmatched '}'
+#0 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\wamp64\\www\\a...')
+#1 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Comm...')
+#2 C:\wamp64\www\adminpro-2\app\Controllers\Dropdown.php(13): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Comm...')
+#3 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\CodeIgniter.php(809): App\Controllers\Dropdown->__construct()
+#4 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#5 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\adminpro-2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\a...')
+#8 {main}
+CRITICAL - 2024-02-19 09:00:31 --> The action you requested is not allowed.
+#0 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\Security\Security.php(289): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\Filters\CSRF.php(53): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('/bewosaye/munic...', 'before')
+#4 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\adminpro-2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\a...')
+#7 {main}
+CRITICAL - 2024-02-19 09:47:34 --> Cannot use App\Controllers\AdminBaseController as AdminBaseController because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2024-02-19 09:48:10 --> Cannot use App\Controllers\AdminBaseController as AdminBaseController because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2024-02-19 09:48:26 --> Cannot use App\Controllers\AdminBaseController as AdminBaseController because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2024-02-19 12:24:33 -->  route cannot be found while reverse-routing.
+#0 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\Common.php(832): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\wamp64\www\adminpro-2\app\Controllers\Settings.php(73): redirect('settings/compan...')
+#3 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Settings->companyUpdate()
+#4 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Settings))
+#5 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\adminpro-2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\a...')
+#8 {main}
+CRITICAL - 2024-02-19 15:59:09 --> Array to string conversion
+#0 C:\wamp64\www\adminpro-2\app\Views\admin\auth\login.php(148): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\wamp64\\www\\a...', 148)
+#1 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\wamp64\\www\\a...')
+#2 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('admin/auth/logi...', Array, true)
+#4 C:\wamp64\www\adminpro-2\app\Controllers\Auth\Login.php(14): view('admin/auth/logi...')
+#5 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Auth\Login->index()
+#6 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Login))
+#7 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\adminpro-2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\a...')
+#10 {main}

@@ -1,0 +1,33 @@
+CRITICAL - 2024-02-25 07:51:06 --> CodeIgniter\Database\MySQLi\Connection::_escapeString(): Argument #1 ($str) must be of type string, null given, called in C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\Database\BaseConnection.php on line 1226
+#0 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(1226): CodeIgniter\Database\MySQLi\Connection->_escapeString(NULL)
+#1 C:\wamp64\www\adminpro-2\app\Controllers\ApangaController.php(461): CodeIgniter\Database\BaseConnection->escapeString(NULL)
+#2 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\ApangaController->update('2')
+#3 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApangaController))
+#4 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\adminpro-2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\a...')
+#7 {main}
+CRITICAL - 2024-02-25 08:28:06 --> Attempt to read property "id" on null
+#0 C:\wamp64\www\adminpro-2\app\Views\admin\settings\email_templates\edit.php(56): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\wamp64\\www\\a...', 56)
+#1 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\wamp64\\www\\a...')
+#2 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('admin/settings/...', Array, true)
+#4 C:\wamp64\www\adminpro-2\app\Controllers\Settings.php(126): view('admin/settings/...', Array)
+#5 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Settings->edit_email_templates('images', 'logo-smart2x.pn...')
+#6 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Settings))
+#7 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\adminpro-2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\a...')
+#10 {main}
+CRITICAL - 2024-02-25 08:28:07 --> Attempt to read property "id" on null
+#0 C:\wamp64\www\adminpro-2\app\Views\admin\settings\email_templates\edit.php(56): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\wamp64\\www\\a...', 56)
+#1 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\wamp64\\www\\a...')
+#2 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('admin/settings/...', Array, true)
+#4 C:\wamp64\www\adminpro-2\app\Controllers\Settings.php(126): view('admin/settings/...', Array)
+#5 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Settings->edit_email_templates('images', 'logo-smart2x.pn...')
+#6 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Settings))
+#7 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\adminpro-2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\a...')
+#10 {main}

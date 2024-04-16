@@ -1,0 +1,454 @@
+CRITICAL - 2024-02-24 07:26:55 --> addslashes(): Passing null to parameter #1 ($string) of type string is deprecated
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'addslashes(): P...', 'C:\\wamp64\\www\\a...', 71)
+#1 C:\wamp64\www\adminpro-2\app\Controllers\Backup.php(71): addslashes(NULL)
+#2 C:\wamp64\www\adminpro-2\app\Controllers\Backup.php(28): App\Controllers\Backup->Export_Database(false, 'backup-on-2024-...')
+#3 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Backup->exportDB()
+#4 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backup))
+#5 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\adminpro-2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\a...')
+#8 {main}
+CRITICAL - 2024-02-24 07:33:05 --> View themes, no current section.
+#0 C:\wamp64\www\adminpro-2\app\Views\admin\settings\general.php(175): CodeIgniter\View\View->endSection()
+#1 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\wamp64\\www\\a...')
+#2 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('admin/settings/...', Array, true)
+#4 C:\wamp64\www\adminpro-2\app\Controllers\Settings.php(25): view('admin/settings/...')
+#5 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Settings->general()
+#6 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Settings))
+#7 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\adminpro-2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\a...')
+#10 {main}
+CRITICAL - 2024-02-24 07:34:15 --> View themes, no current section.
+#0 C:\wamp64\www\adminpro-2\app\Views\admin\settings\general.php(175): CodeIgniter\View\View->endSection()
+#1 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\wamp64\\www\\a...')
+#2 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('admin/settings/...', Array, true)
+#4 C:\wamp64\www\adminpro-2\app\Controllers\Settings.php(25): view('admin/settings/...')
+#5 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Settings->general()
+#6 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Settings))
+#7 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\adminpro-2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\a...')
+#10 {main}
+CRITICAL - 2024-02-24 07:58:18 -->  route cannot be found while reverse-routing.
+#0 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\Common.php(832): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\wamp64\www\adminpro-2\app\Controllers\Settings.php(73): redirect('settings/compan...')
+#3 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Settings->companyUpdate()
+#4 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Settings))
+#5 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\adminpro-2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\a...')
+#8 {main}
+CRITICAL - 2024-02-24 08:14:39 --> Undefined variable $title
+#0 C:\wamp64\www\adminpro-2\app\Views\admin\settings\email_templates\list.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\wamp64\\www\\a...', 13)
+#1 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\wamp64\\www\\a...')
+#2 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('admin/settings/...', Array, true)
+#4 C:\wamp64\www\adminpro-2\app\Controllers\Settings.php(118): view('admin/settings/...')
+#5 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Settings->email_templates()
+#6 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Settings))
+#7 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\adminpro-2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\a...')
+#10 {main}
+CRITICAL - 2024-02-24 08:15:08 --> Cannot use object of type stdClass as array
+#0 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\View\View.php(210): include()
+#1 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('admin/settings/...', Array, true)
+#3 C:\wamp64\www\adminpro-2\app\Controllers\Settings.php(118): view('admin/settings/...')
+#4 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Settings->email_templates()
+#5 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Settings))
+#6 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\adminpro-2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\a...')
+#9 {main}
+CRITICAL - 2024-02-24 08:25:18 --> Attempt to read property "id" on null
+#0 C:\wamp64\www\adminpro-2\app\Views\admin\settings\email_templates\edit.php(56): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\wamp64\\www\\a...', 56)
+#1 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\wamp64\\www\\a...')
+#2 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('admin/settings/...', Array, true)
+#4 C:\wamp64\www\adminpro-2\app\Controllers\Settings.php(126): view('admin/settings/...', Array)
+#5 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Settings->edit_email_templates('images', 'logo-smart2x.pn...')
+#6 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Settings))
+#7 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\adminpro-2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\a...')
+#10 {main}
+CRITICAL - 2024-02-24 08:25:18 --> Attempt to read property "id" on null
+#0 C:\wamp64\www\adminpro-2\app\Views\admin\settings\email_templates\edit.php(56): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\wamp64\\www\\a...', 56)
+#1 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\wamp64\\www\\a...')
+#2 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('admin/settings/...', Array, true)
+#4 C:\wamp64\www\adminpro-2\app\Controllers\Settings.php(126): view('admin/settings/...', Array)
+#5 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Settings->edit_email_templates('images', 'logo-smart2x.pn...')
+#6 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Settings))
+#7 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\adminpro-2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\a...')
+#10 {main}
+CRITICAL - 2024-02-24 08:25:50 --> Attempt to read property "id" on null
+#0 C:\wamp64\www\adminpro-2\app\Views\admin\settings\email_templates\edit.php(56): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\wamp64\\www\\a...', 56)
+#1 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\wamp64\\www\\a...')
+#2 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('admin/settings/...', Array, true)
+#4 C:\wamp64\www\adminpro-2\app\Controllers\Settings.php(126): view('admin/settings/...', Array)
+#5 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Settings->edit_email_templates('images', 'logo-smart2x.pn...')
+#6 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Settings))
+#7 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\adminpro-2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\a...')
+#10 {main}
+CRITICAL - 2024-02-24 08:25:50 --> Attempt to read property "id" on null
+#0 C:\wamp64\www\adminpro-2\app\Views\admin\settings\email_templates\edit.php(56): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\wamp64\\www\\a...', 56)
+#1 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\wamp64\\www\\a...')
+#2 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('admin/settings/...', Array, true)
+#4 C:\wamp64\www\adminpro-2\app\Controllers\Settings.php(126): view('admin/settings/...', Array)
+#5 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Settings->edit_email_templates('images', 'logo-smart2x.pn...')
+#6 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Settings))
+#7 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\adminpro-2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\a...')
+#10 {main}
+CRITICAL - 2024-02-24 08:27:21 --> Attempt to read property "id" on null
+#0 C:\wamp64\www\adminpro-2\app\Views\admin\settings\email_templates\edit.php(56): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\wamp64\\www\\a...', 56)
+#1 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\wamp64\\www\\a...')
+#2 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('admin/settings/...', Array, true)
+#4 C:\wamp64\www\adminpro-2\app\Controllers\Settings.php(126): view('admin/settings/...', Array)
+#5 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Settings->edit_email_templates('images', 'logo-smart2x.pn...')
+#6 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Settings))
+#7 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\adminpro-2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\a...')
+#10 {main}
+CRITICAL - 2024-02-24 08:27:21 --> Attempt to read property "id" on null
+#0 C:\wamp64\www\adminpro-2\app\Views\admin\settings\email_templates\edit.php(56): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\wamp64\\www\\a...', 56)
+#1 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\wamp64\\www\\a...')
+#2 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('admin/settings/...', Array, true)
+#4 C:\wamp64\www\adminpro-2\app\Controllers\Settings.php(126): view('admin/settings/...', Array)
+#5 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Settings->edit_email_templates('images', 'logo-smart2x.pn...')
+#6 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Settings))
+#7 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\adminpro-2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\a...')
+#10 {main}
+CRITICAL - 2024-02-24 08:27:54 --> Attempt to read property "id" on null
+#0 C:\wamp64\www\adminpro-2\app\Views\admin\settings\email_templates\edit.php(56): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\wamp64\\www\\a...', 56)
+#1 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\wamp64\\www\\a...')
+#2 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('admin/settings/...', Array, true)
+#4 C:\wamp64\www\adminpro-2\app\Controllers\Settings.php(126): view('admin/settings/...', Array)
+#5 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Settings->edit_email_templates('images', 'logo-smart2x.pn...')
+#6 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Settings))
+#7 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\adminpro-2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\a...')
+#10 {main}
+CRITICAL - 2024-02-24 08:27:55 --> Attempt to read property "id" on null
+#0 C:\wamp64\www\adminpro-2\app\Views\admin\settings\email_templates\edit.php(56): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\wamp64\\www\\a...', 56)
+#1 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\wamp64\\www\\a...')
+#2 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('admin/settings/...', Array, true)
+#4 C:\wamp64\www\adminpro-2\app\Controllers\Settings.php(126): view('admin/settings/...', Array)
+#5 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Settings->edit_email_templates('images', 'logo-smart2x.pn...')
+#6 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Settings))
+#7 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\adminpro-2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\a...')
+#10 {main}
+CRITICAL - 2024-02-24 08:29:19 --> Attempt to read property "id" on null
+#0 C:\wamp64\www\adminpro-2\app\Views\admin\settings\email_templates\edit.php(56): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\wamp64\\www\\a...', 56)
+#1 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\wamp64\\www\\a...')
+#2 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('admin/settings/...', Array, true)
+#4 C:\wamp64\www\adminpro-2\app\Controllers\Settings.php(126): view('admin/settings/...', Array)
+#5 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Settings->edit_email_templates('images', 'logo-smart2x.pn...')
+#6 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Settings))
+#7 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\adminpro-2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\a...')
+#10 {main}
+CRITICAL - 2024-02-24 08:29:20 --> Attempt to read property "id" on null
+#0 C:\wamp64\www\adminpro-2\app\Views\admin\settings\email_templates\edit.php(56): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\wamp64\\www\\a...', 56)
+#1 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\wamp64\\www\\a...')
+#2 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('admin/settings/...', Array, true)
+#4 C:\wamp64\www\adminpro-2\app\Controllers\Settings.php(126): view('admin/settings/...', Array)
+#5 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Settings->edit_email_templates('images', 'logo-smart2x.pn...')
+#6 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Settings))
+#7 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\adminpro-2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\a...')
+#10 {main}
+ERROR - 2024-02-24 11:40:12 --> Error connecting to the database: Unknown database 'adminpro'
+CRITICAL - 2024-02-24 11:40:12 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'adminpro'
+#0 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#4 C:\wamp64\www\adminpro-2\app\Helpers\basic_helper.php(17): CodeIgniter\BaseModel->first()
+#5 C:\wamp64\www\adminpro-2\app\Views\admin\auth\login.php(95): setting('google_recaptch...')
+#6 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\wamp64\\www\\a...')
+#7 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#8 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('admin/auth/logi...', Array, true)
+#9 C:\wamp64\www\adminpro-2\app\Controllers\Auth\Login.php(14): view('admin/auth/logi...')
+#10 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Auth\Login->index()
+#11 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Login))
+#12 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\wamp64\www\adminpro-2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#14 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\a...')
+#15 {main}
+ERROR - 2024-02-24 11:40:35 --> Error connecting to the database: Unknown database 'adminpro'
+CRITICAL - 2024-02-24 11:40:35 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'adminpro'
+#0 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#4 C:\wamp64\www\adminpro-2\app\Helpers\basic_helper.php(17): CodeIgniter\BaseModel->first()
+#5 C:\wamp64\www\adminpro-2\app\Views\admin\auth\login.php(95): setting('google_recaptch...')
+#6 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\wamp64\\www\\a...')
+#7 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#8 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('admin/auth/logi...', Array, true)
+#9 C:\wamp64\www\adminpro-2\app\Controllers\Auth\Login.php(14): view('admin/auth/logi...')
+#10 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Auth\Login->index()
+#11 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Login))
+#12 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\wamp64\www\adminpro-2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#14 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\a...')
+#15 {main}
+ERROR - 2024-02-24 11:40:50 --> Error connecting to the database: Unknown database 'adminpro'
+CRITICAL - 2024-02-24 11:40:50 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'adminpro'
+#0 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#4 C:\wamp64\www\adminpro-2\app\Helpers\basic_helper.php(17): CodeIgniter\BaseModel->first()
+#5 C:\wamp64\www\adminpro-2\app\Views\admin\auth\login.php(95): setting('google_recaptch...')
+#6 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\wamp64\\www\\a...')
+#7 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#8 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('admin/auth/logi...', Array, true)
+#9 C:\wamp64\www\adminpro-2\app\Controllers\Auth\Login.php(14): view('admin/auth/logi...')
+#10 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Auth\Login->index()
+#11 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Login))
+#12 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\wamp64\www\adminpro-2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#14 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\a...')
+#15 {main}
+ERROR - 2024-02-24 11:40:57 --> Error connecting to the database: Unknown database 'adminpro'
+CRITICAL - 2024-02-24 11:40:57 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'adminpro'
+#0 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#4 C:\wamp64\www\adminpro-2\app\Helpers\basic_helper.php(17): CodeIgniter\BaseModel->first()
+#5 C:\wamp64\www\adminpro-2\app\Views\admin\auth\login.php(95): setting('google_recaptch...')
+#6 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\wamp64\\www\\a...')
+#7 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#8 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('admin/auth/logi...', Array, true)
+#9 C:\wamp64\www\adminpro-2\app\Controllers\Auth\Login.php(14): view('admin/auth/logi...')
+#10 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Auth\Login->index()
+#11 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Login))
+#12 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\wamp64\www\adminpro-2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#14 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\a...')
+#15 {main}
+ERROR - 2024-02-24 11:41:28 --> Email: sendWithSmtp throwed fsockopen(): php_network_getaddresses: getaddrinfo for smtp.mailtrap.io failed: No such host is known. 
+CRITICAL - 2024-02-24 11:45:03 --> addslashes(): Passing null to parameter #1 ($string) of type string is deprecated
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'addslashes(): P...', 'C:\\wamp64\\www\\a...', 71)
+#1 C:\wamp64\www\adminpro-2\app\Controllers\Backup.php(71): addslashes(NULL)
+#2 C:\wamp64\www\adminpro-2\app\Controllers\Backup.php(28): App\Controllers\Backup->Export_Database(false, 'backup-on-2024-...')
+#3 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Backup->exportDB()
+#4 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backup))
+#5 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\adminpro-2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\a...')
+#8 {main}
+CRITICAL - 2024-02-24 11:45:27 --> addslashes(): Passing null to parameter #1 ($string) of type string is deprecated
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'addslashes(): P...', 'C:\\wamp64\\www\\a...', 71)
+#1 C:\wamp64\www\adminpro-2\app\Controllers\Backup.php(71): addslashes(NULL)
+#2 C:\wamp64\www\adminpro-2\app\Controllers\Backup.php(28): App\Controllers\Backup->Export_Database(false, 'backup-on-2024-...')
+#3 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Backup->exportDB()
+#4 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backup))
+#5 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\adminpro-2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\a...')
+#8 {main}
+CRITICAL - 2024-02-24 11:45:41 --> addslashes(): Passing null to parameter #1 ($string) of type string is deprecated
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'addslashes(): P...', 'C:\\wamp64\\www\\a...', 71)
+#1 C:\wamp64\www\adminpro-2\app\Controllers\Backup.php(71): addslashes(NULL)
+#2 C:\wamp64\www\adminpro-2\app\Controllers\Backup.php(28): App\Controllers\Backup->Export_Database(false, 'backup-on-2024-...')
+#3 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Backup->exportDB()
+#4 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backup))
+#5 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\adminpro-2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\a...')
+#8 {main}
+CRITICAL - 2024-02-24 11:54:19 --> addslashes(): Passing null to parameter #1 ($string) of type string is deprecated
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'addslashes(): P...', 'C:\\wamp64\\www\\a...', 71)
+#1 C:\wamp64\www\adminpro-2\app\Controllers\Backup.php(71): addslashes(NULL)
+#2 C:\wamp64\www\adminpro-2\app\Controllers\Backup.php(28): App\Controllers\Backup->Export_Database(false, 'backup-on-2024-...')
+#3 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Backup->exportDB()
+#4 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backup))
+#5 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\adminpro-2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\a...')
+#8 {main}
+CRITICAL - 2024-02-24 12:04:18 --> addslashes(): Passing null to parameter #1 ($string) of type string is deprecated
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'addslashes(): P...', 'C:\\wamp64\\www\\a...', 71)
+#1 C:\wamp64\www\adminpro-2\app\Controllers\Backup.php(71): addslashes(NULL)
+#2 C:\wamp64\www\adminpro-2\app\Controllers\Backup.php(28): App\Controllers\Backup->Export_Database(false, 'backup-on-2024-...')
+#3 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Backup->exportDB()
+#4 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backup))
+#5 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\adminpro-2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\a...')
+#8 {main}
+CRITICAL - 2024-02-24 12:29:15 --> Unclosed '{' on line 9
+#0 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('/backup')
+#1 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('/backup')
+#2 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\adminpro-2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\a...')
+#6 {main}
+ERROR - 2024-02-24 12:39:10 --> Email: sendWithSmtp throwed fsockopen(): php_network_getaddresses: getaddrinfo for smtp-relay.brevo.com failed: No such host is known. 
+ERROR - 2024-02-24 12:43:28 --> Email: sendWithSmtp throwed fsockopen(): php_network_getaddresses: getaddrinfo for smtp-relay.brevo.com failed: No such host is known. 
+CRITICAL - 2024-02-24 12:44:12 --> Attempt to read property "id" on null
+#0 C:\wamp64\www\adminpro-2\app\Views\admin\settings\email_templates\edit.php(56): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\wamp64\\www\\a...', 56)
+#1 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\wamp64\\www\\a...')
+#2 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('admin/settings/...', Array, true)
+#4 C:\wamp64\www\adminpro-2\app\Controllers\Settings.php(126): view('admin/settings/...', Array)
+#5 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Settings->edit_email_templates('images', 'logo-smart2x.pn...')
+#6 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Settings))
+#7 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\adminpro-2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\a...')
+#10 {main}
+CRITICAL - 2024-02-24 12:44:13 --> Attempt to read property "id" on null
+#0 C:\wamp64\www\adminpro-2\app\Views\admin\settings\email_templates\edit.php(56): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\wamp64\\www\\a...', 56)
+#1 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\wamp64\\www\\a...')
+#2 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('admin/settings/...', Array, true)
+#4 C:\wamp64\www\adminpro-2\app\Controllers\Settings.php(126): view('admin/settings/...', Array)
+#5 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Settings->edit_email_templates('images', 'logo-smart2x.pn...')
+#6 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Settings))
+#7 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\adminpro-2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\a...')
+#10 {main}
+CRITICAL - 2024-02-24 12:44:30 -->  route cannot be found while reverse-routing.
+#0 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\Common.php(832): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\wamp64\www\adminpro-2\app\Controllers\Settings.php(73): redirect('settings/compan...')
+#3 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Settings->companyUpdate()
+#4 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Settings))
+#5 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\adminpro-2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\a...')
+#8 {main}
+ERROR - 2024-02-24 12:45:00 --> Email: sendWithSmtp throwed fsockopen(): php_network_getaddresses: getaddrinfo for smtp-relay.brevo.com failed: No such host is known. 
+CRITICAL - 2024-02-24 13:41:44 --> Cannot declare class App\Controllers\BewosayeController, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2024-02-24 13:42:37 --> Cannot declare class App\Controllers\BewosayeController, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2024-02-24 13:43:08 --> Cannot declare class App\Controllers\BewosayeController, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2024-02-24 13:43:55 --> Class "App\Controllers\BewosayeModel" not found
+#0 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\ApangaController->apangalist()
+#1 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApangaController))
+#2 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\adminpro-2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\a...')
+#5 {main}
+CRITICAL - 2024-02-24 13:44:23 --> Undefined array key "org_name"
+#0 C:\wamp64\www\adminpro-2\app\Views\business\apanga\list.php(99): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\wamp64\\www\\a...', 99)
+#1 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\wamp64\\www\\a...')
+#2 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('business/apanga...', Array, true)
+#4 C:\wamp64\www\adminpro-2\app\Controllers\ApangaController.php(66): view('business/apanga...', Array)
+#5 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\ApangaController->apangalist()
+#6 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApangaController))
+#7 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\adminpro-2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\a...')
+#10 {main}
+CRITICAL - 2024-02-24 13:54:13 --> Undefined array key "org_name"
+#0 C:\wamp64\www\adminpro-2\app\Views\business\apanga\list.php(99): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\wamp64\\www\\a...', 99)
+#1 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\wamp64\\www\\a...')
+#2 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('business/apanga...', Array, true)
+#4 C:\wamp64\www\adminpro-2\app\Controllers\ApangaController.php(66): view('business/apanga...', Array)
+#5 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\ApangaController->apangalist()
+#6 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApangaController))
+#7 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\adminpro-2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\a...')
+#10 {main}
+CRITICAL - 2024-02-24 16:10:25 --> Undefined variable $buscategory
+#0 C:\wamp64\www\adminpro-2\app\Views\business\apanga\add.php(181): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\wamp64\\www\\a...', 181)
+#1 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\wamp64\\www\\a...')
+#2 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('business/apanga...', Array, true)
+#4 C:\wamp64\www\adminpro-2\app\Controllers\ApangaController.php(57): view('business/apanga...', Array)
+#5 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\ApangaController->addApanga()
+#6 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApangaController))
+#7 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\adminpro-2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\a...')
+#10 {main}
+CRITICAL - 2024-02-24 16:12:22 --> Undefined variable $buscategory
+#0 C:\wamp64\www\adminpro-2\app\Views\business\apanga\add.php(181): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\wamp64\\www\\a...', 181)
+#1 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\wamp64\\www\\a...')
+#2 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('business/apanga...', Array, true)
+#4 C:\wamp64\www\adminpro-2\app\Controllers\ApangaController.php(57): view('business/apanga...', Array)
+#5 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\ApangaController->addApanga()
+#6 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApangaController))
+#7 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\adminpro-2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\a...')
+#10 {main}
+CRITICAL - 2024-02-24 22:52:18 --> CodeIgniter\Database\MySQLi\Connection::_escapeString(): Argument #1 ($str) must be of type string, null given, called in C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\Database\BaseConnection.php on line 1226
+#0 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(1226): CodeIgniter\Database\MySQLi\Connection->_escapeString(NULL)
+#1 C:\wamp64\www\adminpro-2\app\Controllers\ApangaController.php(226): CodeIgniter\Database\BaseConnection->escapeString(NULL)
+#2 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\ApangaController->apanga()
+#3 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApangaController))
+#4 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\adminpro-2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\a...')
+#7 {main}
+CRITICAL - 2024-02-24 22:54:23 --> CodeIgniter\Database\MySQLi\Connection::_escapeString(): Argument #1 ($str) must be of type string, null given, called in C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\Database\BaseConnection.php on line 1226
+#0 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(1226): CodeIgniter\Database\MySQLi\Connection->_escapeString(NULL)
+#1 C:\wamp64\www\adminpro-2\app\Controllers\ApangaController.php(226): CodeIgniter\Database\BaseConnection->escapeString(NULL)
+#2 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\ApangaController->apanga()
+#3 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApangaController))
+#4 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\adminpro-2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\a...')
+#7 {main}
+ERROR - 2024-02-24 22:57:30 --> Unknown column 'status' in 'field list'
+CRITICAL - 2024-02-24 22:57:30 --> Unknown column 'status' in 'field list'
+#0 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ap...', 0)
+#1 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ap...')
+#2 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ap...')
+#3 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ap...', Array, false)
+#4 C:\wamp64\www\adminpro-2\app\Controllers\ApangaController.php(241): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\ApangaController->apanga()
+#6 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApangaController))
+#7 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\adminpro-2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\a...')
+#10 {main}

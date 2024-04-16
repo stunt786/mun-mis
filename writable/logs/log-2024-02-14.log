@@ -1,0 +1,13 @@
+CRITICAL - 2024-02-14 16:50:01 --> include(C:\wamp64\www\adminpro-2\app\Views/templates/sidenav.php): Failed to open stream: No such file or directory
+#0 C:\wamp64\www\adminpro-2\app\Views\admin\account\profile.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(C:\\wamp...', 'C:\\wamp64\\www\\a...', 22)
+#1 C:\wamp64\www\adminpro-2\app\Views\admin\account\profile.php(22): include()
+#2 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\wamp64\\www\\a...')
+#3 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('admin/account/p...', Array, true)
+#5 C:\wamp64\www\adminpro-2\app\Controllers\Profile.php(21): view('admin/account/p...', Array)
+#6 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Profile->index()
+#7 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profile))
+#8 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64\www\adminpro-2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\a...')
+#11 {main}

@@ -1,0 +1,19 @@
+CRITICAL - 2024-02-23 20:26:17 --> Trying to access array offset on value of type null
+#0 C:\wamp64\www\adminpro-2\app\Controllers\DartaController.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\wamp64\\www\\a...', 46)
+#1 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\DartaController->dartalist()
+#2 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DartaController))
+#3 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\adminpro-2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\a...')
+#6 {main}
+CRITICAL - 2024-02-23 20:44:55 --> syntax error, unexpected end of file, expecting "elseif" or "else" or "endif"
+#0 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\View\View.php(210): include()
+#1 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('admin/permissio...', Array, true)
+#3 C:\wamp64\www\adminpro-2\app\Controllers\Permissions.php(20): view('admin/permissio...', Array)
+#4 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Permissions->index()
+#5 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Permissions))
+#6 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\adminpro-2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\a...')
+#9 {main}

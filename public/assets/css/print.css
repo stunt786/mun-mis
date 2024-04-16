@@ -1,0 +1,57 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.page {
+  width: 21cm;
+  height: 29.7cm;
+  margin: auto;
+  padding: 1cm;
+  border: 1px solid black;
+  position: relative;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.header-img {
+  width: 200px; /* Adjust size as needed */
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.profile-img {
+  width: 100px; /* Adjust size as needed */
+  height: auto;
+  display: block;
+  position: absolute;
+  top: 50%;
+  right: 1cm;
+  transform: translateY(-50%);
+}
+
+.data {
+  text-align: left;
+}
+
+@media print {
+  body {
+    margin: 0;
+    padding: 0;
+  }
+
+  .page {
+    margin: 0;
+    border: initial;
+    width: initial;
+    min-height: initial;
+    box-shadow: initial;
+    background: initial;
+    page-break-after: always;
+  }
+}
