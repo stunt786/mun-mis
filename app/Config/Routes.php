@@ -221,7 +221,12 @@ $routes->get('employee/employeeDetails/(:segment)', 'EmployeeController::employe
 // Routes for EducationMonthly Progress
 
 $routes->get('edu-monthly', 'Progress\EduMonthlyController::index');
-$routes->post('edu/baishakh', 'Progress\EduMonthlyController::baishakh');
+$routes->post('edu/saveData', 'Progress\EduMonthlyController::saveData');
+
+$routes->get('/edu-monthly/getMonthData', 'Progress\EduMonthlyController::getMonthData');
+
+
+
 
 /*
  * --------------------------------------------------------------------

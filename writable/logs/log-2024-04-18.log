@@ -1,0 +1,8 @@
+CRITICAL - 2024-04-18 23:01:57 --> Array to string conversion
+#0 C:\wamp64\www\adminpro-2\app\Controllers\Progress\EduMonthlyController.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\wamp64\\www\\a...', 38)
+#1 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Progress\EduMonthlyController->index()
+#2 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Progress\EduMonthlyController))
+#3 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\adminpro-2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\adminpro-2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\a...')
+#6 {main}

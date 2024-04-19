@@ -27,23 +27,48 @@ class EduMonthlyController extends AdminBaseController
     }
     public function index()
     {
-        // $this->permissionCheck('eduprogress_add');
-        
-        // Check if the user is authenticated (you might want to use a middleware for this)
-        
         $yearModel = new YearModel(); 
         $currentYear = $yearModel->getCurrentYear();
-        $data['title'] = 'Education Progress';
-        $data['edumonthly'] = $this->model->where('year', $currentYear)->findAll();
+
+        $selectedMonth = $this->request->getVar('month') ?? date('F'); 
+        $data = [
+            'selectedMonth' => $selectedMonth,
+            'title' => 'Education Progress',
+        ];
+
+        $eduMonthlyModel = new EduMonthlyModel();
+        $data['edumonthly'] = $eduMonthlyModel->where([
+            'year' => $currentYear, 
+            'month' => $selectedMonth
+        ])->first();                
 
         return view('progress/education/add-monthly', $data); 
     }
+
+    public function getMonthData()
+    {
+        $month = $this->request->getVar('month'); 
+        if ($month) {
+            $yearModel = new YearModel(); 
+            $currentYear = $yearModel->getCurrentYear();
+
+            $eduMonthlyModel = new EduMonthlyModel();
+            $data = $eduMonthlyModel->where([
+                'year' => $currentYear, 
+                'month' => $month
+            ])->first();
+
+            return $this->response->setJSON($data);
+        } else {
+            return $this->response->setJSON(['error' => 'Month not provided']);
+        } 
+    }
     
-    public function baishakh()
+    public function saveData()
     {
         helper('form'); 
         // Load the model
-        $model = new EduMonthlyModel(); // Replace YourModel with the actual name of your model
+        $model = new EduMonthlyModel(); 
         
         // Retrieve form data
         $assessment = $this->request->getPost('assessment');
@@ -58,7 +83,8 @@ class EduMonthlyController extends AdminBaseController
             'assessment' => 'required|min_length[20]',
             'progress_summary' => 'required|min_length[20]',
             'remarks' => 'permit_empty',
-            'image' => 'uploaded[image]|mime_in[image,application/pdf,application/msword,application/vnd.ms-excel,application/vnd.openxmlformats-officedocument.wordprocessingml.document,application/vnd.openxmlformats-officedocument.spreadsheetml.sheet,application/vnd.oasis.opendocument.text,application/vnd.oasis.opendocument.spreadsheet]', 
+            'image' => 'mime_in[image,application/pdf,application/msword,application/vnd.ms-excel,application/vnd.openxmlformats-officedocument.wordprocessingml.document,application/vnd.openxmlformats-officedocument.spreadsheetml.sheet,application/vnd.oasis.opendocument.text,application/vnd.oasis.opendocument.spreadsheet]', 
+
         ]);
 
         //File Upload & Image Name Handling
@@ -92,7 +118,7 @@ class EduMonthlyController extends AdminBaseController
 
         // Update the record
        // Check if a record exists for the current year and the logged-in user
-    $existingRecord = $model->where('year', $currentYear)->where('user_id', $userId)->first();
+       $existingRecord = $model->where('year', $currentYear)->where('user_id', $userId)->where('month', $month)->first();
 
     if ($existingRecord) {
         // Update the record
@@ -102,10 +128,8 @@ class EduMonthlyController extends AdminBaseController
         $model->insert($data);
     }
 
-        // Optionally, you can redirect the user to a success page or show a success message
+        //  a success page or show a success message
         return redirect()->to('/edu-monthly')->with('success', 'Data updated successfully');
     }
-
-    
 
 }
